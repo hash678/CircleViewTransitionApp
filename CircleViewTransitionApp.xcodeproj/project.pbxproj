@@ -14,6 +14,7 @@
 		193393ED246DB254009F3BB4 /* CircleViewTransitionApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 193393EB246DB254009F3BB4 /* CircleViewTransitionApp.xcdatamodeld */; };
 		193393EF246DB25A009F3BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193393EE246DB25A009F3BB4 /* Assets.xcassets */; };
 		193393F2246DB25A009F3BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193393F0246DB25A009F3BB4 /* LaunchScreen.storyboard */; };
+		193393FA246DB284009F3BB4 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193393F9246DB284009F3BB4 /* TransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		193393EE246DB25A009F3BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		193393F1246DB25A009F3BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		193393F3246DB25A009F3BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193393F9246DB284009F3BB4 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				193393F0246DB25A009F3BB4 /* LaunchScreen.storyboard */,
 				193393F3246DB25A009F3BB4 /* Info.plist */,
 				193393EB246DB254009F3BB4 /* CircleViewTransitionApp.xcdatamodeld */,
+				193393F9246DB284009F3BB4 /* TransitionView.swift */,
 			);
 			path = CircleViewTransitionApp;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				193393E7246DB254009F3BB4 /* ViewController.swift in Sources */,
 				193393ED246DB254009F3BB4 /* CircleViewTransitionApp.xcdatamodeld in Sources */,
 				193393E3246DB254009F3BB4 /* AppDelegate.swift in Sources */,
+				193393FA246DB284009F3BB4 /* TransitionView.swift in Sources */,
 				193393E5246DB254009F3BB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U8ABLMRK4;
 				INFOPLIST_FILE = CircleViewTransitionApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U8ABLMRK4;
 				INFOPLIST_FILE = CircleViewTransitionApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
